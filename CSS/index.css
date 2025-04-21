@@ -5,9 +5,5 @@
 
 body{
     background: #cc4180;
-    background: linear-gradient(147deg, rgba(204, 65, 128, 1) 0%, rgba(196, 98, 65, 1) 49%, rgba(237, 221, 83, 1) 100%);
-}
-
-h1{
-    font-size: 1px;
+    background: linear-gradient(175deg, rgba(204, 65, 128, 1) 0%, rgba(196, 98, 65, 1) 49%, rgba(237, 221, 83, 1) 100%);
 }
