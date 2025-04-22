@@ -1,3 +1,9 @@
+:root{
+    --pink: rgba(204, 65, 128, 1);
+    --orange: rgba(196, 98, 65, 1);
+    --yellow: rgba(237, 221, 83, 1);
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -6,11 +12,12 @@
 html, body{
     height: 100%;
     width: 100%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 body{
-    background: #cc4180;
-    background: linear-gradient(145deg, rgba(204, 65, 128, 1) 0%, rgba(196, 98, 65, 1) 50%, rgba(237, 221, 83, 1) 100%);
+    background: var(--pink);
+    background: linear-gradient(145deg, var(--pink), var(--orange) 50%, var(--yellow) 100%);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -21,23 +28,31 @@ body{
     width: 30%;
     display: flex;
     flex-direction: column;
-    border-radius: 25px 25px 0 0;
+    border-radius: 25px;
 }
 
 /* Card Header */
 
-.card_header{
-    
-    padding: 20px;
+.card_header{  
+    padding: 30px;
 }
 
 .card_header h1{
-    font-size: 60px;
+    font-size: 50px;
+    color: #cc4180;
+    line-height: 50px;
 }
 
 .card_header p{
-    font-size: 20px;
-    align-items: center;
+    font-size: 15px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), var(--pink), rgba(0, 0, 0, 0));
 }
 
 /* Card Nav */
@@ -51,18 +66,22 @@ body{
 }
 
 .card_body li{
-    padding: 30px 20px;
+    padding: 30px 30px; 
 }
 
 .card_body a{
     text-decoration: none;
     color: rgb(26, 26, 30);
-    font-size: 30px;
+    font-size: 20px;
     
 }
 
 .card_body li:hover{
-    background-color: rgb(175, 184, 203);
+    background-color: rgb(210, 218, 233);
+}
+
+.card_footer{
+    height: 20px;
 }
 
 /* Mobile fixes */
