@@ -58,7 +58,7 @@ body{
 hr {
     border: 0;
     height: 1px;
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), #444cf7, rgba(0, 0, 0, 0));
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), #e5e5f7, rgba(0, 0, 0, 0));
 }
 
 /* Card Nav */
