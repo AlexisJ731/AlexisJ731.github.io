@@ -58,7 +58,9 @@ body{
 hr {
     border: 0;
     height: 1px;
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), #e5e5f7, rgba(0, 0, 0, 0));
+    width: 90%;
+    justify-self: center;
+    background-color: #e5e5f7;
 }
 
 /* Card Nav */
@@ -83,7 +85,12 @@ hr {
 }
 
 .card_body li:hover{
-    background-color: rgb(210, 218, 233);
+    background-color: rgba(213, 220, 235, 0.305);
+    
+}
+
+.card_body li:last-child :hover{
+    border-radius: 0 0 25px 25px;
 }
 
 .card_footer{
