@@ -24,6 +24,10 @@
     min-height: 100px;
 }
 
+.first:hover{
+    border-radius: 25px 25px 0 0;
+}
+
 hr{
     align-self: center;
 }
