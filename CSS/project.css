@@ -34,6 +34,7 @@ hr{
 
 div.gallery {
     border: 1px solid #ccc;
+    min-height: 250px;
   }
   
   div.gallery:hover {
