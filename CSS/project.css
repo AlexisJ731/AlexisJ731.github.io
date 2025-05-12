@@ -74,6 +74,10 @@ div.gallery {
     .nav_body{
         display: none;
     }
+
+    .body_div{
+      width: 90%;
+    }
   }
   
   @media only screen and (max-width: 500px) {
