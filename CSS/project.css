@@ -2,22 +2,26 @@
     width: 100%;
     min-height: 100vh;
     display: flex;
-    flex-direction: row;
+    align-items: center;
     gap: 5%;
 }
 
-.nav_body{
+/*.nav_body{
     margin-left: 5%;
     height: 50%;
     align-self: center;
+}*/
+
+a{
+  color: black;
 }
 
 .project_body{
-    width: 70%;
+    width: 90%;
     min-height: 100vh;
     max-height: fit-content;
     border-radius: 0;
-    position: relative;
+   align-self: center;
 }
 
 .item_card{
