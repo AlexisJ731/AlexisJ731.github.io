@@ -65,6 +65,10 @@ hr {
     background-color: #e5e5f7;
 }
 
+a {
+    color: #000000;
+}
+
 /* Card Nav */
 
 .card_body ul{
