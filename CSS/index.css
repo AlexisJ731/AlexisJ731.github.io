@@ -24,10 +24,9 @@ body{
     align-items: center;
     justify-content: center;
 
-    background-color: rgba(229, 229, 247, 0.8);
-    opacity: 0.8;
-    background-image: radial-gradient(#444cf7 0.5px, #e5e5f7 0.5px);
-    background-size: 10px 10px;
+    background-image: radial-gradient(circle at center, #444cf7 1px, transparent 1px);
+    background-size: 15px 15px;
+    background-color: #E5E5F7;
 }
 
 .card_base{
